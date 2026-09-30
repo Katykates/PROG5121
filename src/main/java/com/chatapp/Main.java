@@ -2,7 +2,7 @@ package com.chatapp;
 
 import java.util.Scanner;
 
-/** Console application for registration and login (no GUI). */
+/** Console application: registration, login, then QuickChat (no GUI). */
 public class Main {
 
     public static void main(String[] args) {
@@ -21,8 +21,7 @@ public class Main {
         while (true) {
             System.out.print("Enter a username: ");
             username = scanner.nextLine().trim();
-            String msg = login.returnUsernameMessage(username);
-            System.out.println(msg);
+            System.out.println(login.returnUsernameMessage(username));
             if (login.checkUserName(username)) {
                 break;
             }
@@ -33,8 +32,7 @@ public class Main {
         while (true) {
             System.out.print("Enter a password: ");
             password = scanner.nextLine();
-            String msg = login.returnPasswordMessage(password);
-            System.out.println(msg);
+            System.out.println(login.returnPasswordMessage(password));
             if (login.checkPasswordComplexity(password)) {
                 break;
             }
@@ -64,6 +62,9 @@ public class Main {
             System.out.println(login.returnLoginStatus(u, p));
             loggedIn = login.loginUser(u, p);
         }
+
+        // Messaging is only available after a successful login
+        new QuickChat(scanner).run();
 
         scanner.close();
     }
