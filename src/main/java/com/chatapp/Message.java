@@ -10,8 +10,15 @@ import java.util.Random;
 /**
  * Represents a single QuickChat message (Part 2).
  *
- * References (replace with the sources you actually used):
- *  - <add the source(s) you used to research storing messages in JSON: author/site, year, title, URL, date accessed>
+  * References:
+ *  - Bray, T. (ed.) (2017) RFC 8259: The JavaScript Object Notation (JSON) Data Interchange
+ *    Format. RFC Editor. Available at: https://www.rfc-editor.org/info/rfc8259
+ *    (Accessed: 30 September 2026).
+ *  - Oracle (n.d.) Class Files (Java SE 11 and JDK 11). Available at:
+ *    https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/nio/file/Files.html
+ *    (Accessed: 30 September 2026).
+ *  - HowToDoInJava (n.d.) Java 11 Files.writeString(): Writing Text to a File. Available at:
+ *    https://howtodoinjava.com/java11/write-string-to-file/ (Accessed: 30 September 2026).
  */
 public class Message {
 
