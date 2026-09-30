@@ -23,7 +23,11 @@ import java.util.regex.Pattern;
  *    (Accessed: 30 September 2026).
  *  - HowToDoInJava (n.d.) Java 11 Files.writeString(): Writing Text to a File. Available at:
  *    https://howtodoinjava.com/java11/write-string-to-file/ (Accessed: 30 September 2026).
- *  - <add the source(s) you used to read the JSON file back into an array: author/site, year, title, URL, date accessed>
+  *  - Oracle (n.d.) Methods of the Matcher Class (The Java Tutorials). Available at:
+ *    https://docs.oracle.com/javase/tutorial/essential/regex/matcher.html
+ *    (Accessed: 30 September 2026).
+ *  - Baeldung (n.d.) A Guide To Java Regular Expressions API. Available at:
+ *    https://www.baeldung.com/regular-expressions-java (Accessed: 30 September 2026).
  */
 public class Message {
 
