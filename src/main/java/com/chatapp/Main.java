@@ -64,7 +64,7 @@ public class Main {
         }
 
         // Messaging is only available after a successful login
-        new QuickChat(scanner).run();
+        new QuickChat(scanner, firstName + " " + lastName).run();
 
         scanner.close();
     }
