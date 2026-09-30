@@ -5,9 +5,14 @@ import java.util.regex.Pattern;
 /**
  * Handles user registration and login for the Chat App (Part 1).
  *
- * References (replace/add your own sources here):
- *  - Regex for cell number: <add the website/tutorial you used, author, year, URL, date accessed>
- *  - Password checking approach: <add source if you used one>
+  * References:
+ *  - Goyvaerts, J. and Levithan, S. (2012) Regular Expressions Cookbook. 2nd edn.
+ *    O'Reilly Media. Available at:
+ *    https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s03.html
+ *    (Accessed: 30 September 2026).
+ *  - HowToDoInJava (n.d.) Regex to Validate International Phone Numbers. Available at:
+ *    https://howtodoinjava.com/java/regex/java-regex-validate-international-phone-numbers/
+ *    (Accessed: 30 September 2026).
  */
 public class Login {
 
